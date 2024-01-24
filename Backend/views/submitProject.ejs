@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="background.css">
+    <style>
+        h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 40px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+   
+ 
+
+    <h1>Create A pRojEct</h1>
+    <hr />
+    <div class="box" >
+      <form action="/submitProject" method="POST" enctype="multipart/form-data">
+        <div>
+          <label for="name">Name</label>
+          <input
+            type="name"
+            id="name"
+            placeholder="Name"
+            value=""
+            name="email"
+            required
+          />
+        </div>
+        <div>
+          <label for="desc"></label>
+          <input 
+            type="text"
+            id="desc"
+            name="desc"
+            value=""
+            placeholder="Project name"
+            required
+          >
+        </input>
+        </div>
+        <div>
+          <label for="image">Upload Image</label>
+          <input type="file" id="image" name="image" value="" required />
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+
+<div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+ </div>
+ 
+
+</body>
+</html>
